@@ -1,0 +1,23 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "This is the personal website built upon React",
+  "main": "index.js",
+  "dependencies": {
+    "create-react-app": "^3.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coolzyw/personal-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coolzyw/personal-website/issues"
+  },
+  "homepage": "https://github.com/coolzyw/personal-website#readme"
+}
