@@ -12,11 +12,21 @@
     font-size: 25px;
     /*font-style: italic;*/
     float: right;
-    margin-top: 10%;
+    margin-top: 8%;
     margin-right: 15%;
     text-align: center;
 }
 
-/*.link {*/
-/*    background-color: cornsilk;*/
-/*}*/
+.link {
+    width: 45%;
+    height: 20%;
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-left: 13%;
+    background-color:  #282c34;
+}
+
+.item {
+    width: 10%;
+    margin-left: 10%;
+}

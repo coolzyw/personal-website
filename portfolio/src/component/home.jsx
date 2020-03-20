@@ -20,11 +20,14 @@ export default class Home extends Component {
 
                 <nav>
                     <ul className="link">
-                        <li><a href="https://github.com/coolzyw" target="_blank" rel="noopener noreferrer">
-                            <i className="fab fa-github"></i>
+                        <li className="item"><a href="https://github.com/coolzyw" target="_blank" rel="noopener noreferrer">
+                            <i className="fa fa-github" style={{color:"white"}}></i>
                         </a></li>
-                        <li><a href="https://www.linkedin.com/in/dhruv-b-545b52a9/" target="_blank" rel="noopener noreferrer">
-                            {/*<i className="icon-linkedin2" />*/}
+                        <li className="item"><a href="https://www.linkedin.com/in/dhruv-b-545b52a9/" target="_blank" rel="noopener noreferrer">
+                            <i className="fa fa-linkedin" style={{color:"white"}}></i>
+                        </a></li>
+                        <li className="item"><a href="https://www.instagram.com/yiweiiiiiiiii/" target="_blank" rel="noopener noreferrer">
+                            <i className="fa fa-instagram" style={{color:"white"}}></i>
                         </a></li>
                     </ul>
                 </nav>
