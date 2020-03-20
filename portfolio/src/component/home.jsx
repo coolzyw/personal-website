@@ -5,7 +5,10 @@ export default class Home extends Component {
     render() {
         return(
             <div className="home">
-                <img className="image" src={ require('../profile.JPG') } />
+                <div className="left-column">
+                    <img className="image" src={ require('../profile.JPG') } />
+                </div>
+
 
                 <div className="words">
                     Hello, My Name is Yiwei Zhang! &#128521; I am pursuing a Master of Computer Science
@@ -29,6 +32,16 @@ export default class Home extends Component {
                         <li className="item"><a href="https://www.instagram.com/yiweiiiiiiiii/" target="_blank" rel="noopener noreferrer">
                             <i className="fa fa-instagram" style={{color:"white"}}></i>
                         </a></li>
+                    </ul>
+                </nav>
+                <nav>
+                    <ul className="contact-info">
+                        <li className="contact-info-item">
+                            Tel: 734-882-7059
+                        </li>
+                        <li className="contact-info-item">
+                            Email: yiweizhang2020@u.northwestern.edu
+                        </li>
                     </ul>
                 </nav>
             </div>
