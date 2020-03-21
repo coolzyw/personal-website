@@ -4,11 +4,11 @@ import './education.css';
 export default class Education extends Component {
     render() {
         return(
-            <div id="education" className="education">
-                <div className="title"> Education </div>
+            <div id="education" className="section">
+                <div className="section-title"> Education </div>
                 <div>
-                    <div className="university">
-                        <div className="each-university">
+                    <div className="section-body">
+                        <div className="each-section">
                             <img className="logo" src={ require('../NU.png') } />
                             <ul className="text">
                                 <li className="intro"> I am currently pursuing a Master degree of Computer Science. </li>
@@ -18,7 +18,7 @@ export default class Education extends Component {
                             </ul>
                         </div>
 
-                        <div className="each-university">
+                        <div className="each-section">
                             <img className="logo" src={ require('../umich.png') } />
                             <ul className="text">
                                 <li className="intro"> I have received my Bachelor of Computer Science degree at University of Michigan, Ann Arbor. </li>
@@ -26,7 +26,7 @@ export default class Education extends Component {
                             </ul>
                         </div>
 
-                        <div className="each-university">
+                        <div className="each-section">
                             <img className="logo" src={ require('../sjtu.png') } />
                             <ul className="text">
                                 <li className="intro"> I have received my Bachelor of ECE degree at Shanghai Jiao Tong University. </li>
