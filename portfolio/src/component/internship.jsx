@@ -13,7 +13,7 @@ export default class Internship extends Component {
                             <li className="intro"> In progress ... </li>
                         </ul>
                     </div>
-                    <button className="timestamp"> Summer 2020 </button>
+                    <h4 className="timestamp"> Summer 2020 </h4>
 
                     <div className="each-section">
                         <img className="logo" src={ require('../cisco.jpeg') } />
@@ -23,7 +23,7 @@ export default class Internship extends Component {
                             <li className="intro"> Provided useful pretrained knowledge using PyTorch, which improved the classification accuracy of 500 classes to 90%. </li>
                         </ul>
                     </div>
-                    <button className="timestamp"> Summer 2019 </button>
+                    <h4 className="timestamp"> Summer 2019 </h4>
 
                     <div className="each-section">
                         <img className="logo" src={ require('../umich.png') } />
@@ -33,7 +33,7 @@ export default class Internship extends Component {
                             <li className="intro"> Made the product more user-friendly by writing shell scripts to start the GUI automatically. </li>
                         </ul>
                     </div>
-                    <button className="timestamp"> Summer 2018 </button>
+                    <h4 className="timestamp"> Summer 2018 </h4>
                 </div>
             </div>
         );

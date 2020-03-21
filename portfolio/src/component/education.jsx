@@ -17,6 +17,7 @@ export default class Education extends Component {
                                 </li>
                             </ul>
                         </div>
+                        <h4 className="timestamp"> Sep 2019-Now </h4>
 
                         <div className="each-section">
                             <img className="logo" src={ require('../umich.png') } />
@@ -25,6 +26,7 @@ export default class Education extends Component {
                                 <li className="intro"> I did a summer CS research project with Professor Chowdhury, where I built a dashboard for a distributed system.</li>
                             </ul>
                         </div>
+                        <h4 className="timestamp"> &nbsp; &nbsp;2017-2019 </h4>
 
                         <div className="each-section">
                             <img className="logo" src={ require('../sjtu.png') } />
@@ -33,6 +35,7 @@ export default class Education extends Component {
                                 <li className="intro"> I participated the Dual Degree program with University of Michigan, Ann Arbor (2+2). </li>
                             </ul>
                         </div>
+                        <h4 className="timestamp">&nbsp; &nbsp; 2015-2017 </h4>
 
                     </div>
                 </div>
