@@ -39,16 +39,18 @@
 .text {
     max-width: 65%;
     float: left;
+    margin-top: 8px;
     margin-left: 12%;
     margin-right: 12%;
     font-size: 20px;
     color: white;
     background-color: #282c34;
-    list-style-type: disc;
+    list-style-type: square;
 }
 
 .intro {
     width:100%;
     margin-bottom: 15px;
-    display: list-item;
+    display: inline-list-item;
+    list-style-type: disc;
 }
