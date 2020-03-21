@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Header from "./component/header";
 import Home from "./component/home";
+import Education from "./component/education";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
           <Header className="App-bar"> </Header>
           <Home> </Home>
       </header>
+        <Education> </Education>
 
     </div>
   );

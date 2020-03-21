@@ -1,0 +1,54 @@
+.education {
+    min-height: 100vh;
+}
+
+.h1 {
+    font-size: medium;
+    text-align: left;
+    padding-left: 10%;
+    color: white;
+}
+
+.title {
+    font-size: medium;
+    text-align: left;
+    padding: 5%;
+    padding-top: 2%;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.university {
+    margin-left: 10%;
+}
+
+.each-university {
+    min-width: 100vw;
+    min-height: 20vh;
+    margin-bottom: 4%;
+}
+
+.logo {
+    max-width: 30%;
+    width: 8%;
+    height: 8%;
+    float: left;
+}
+
+.text {
+    max-width: 65%;
+    float: left;
+    margin-left: 12%;
+    margin-right: 12%;
+    font-size: 20px;
+    color: white;
+    background-color: #282c34;
+    list-style-type: disc;
+}
+
+.intro {
+    width:100%;
+    margin-bottom: 15px;
+    display: list-item;
+}
