@@ -5,7 +5,7 @@ export default class Project extends Component {
     render() {
         return(
             <div id="projects" className="section">
-                <div className="section-title"> Projects </div>
+                <div className="section-title"> Here are some fun projects I did! </div>
             </div>
         );
     }
