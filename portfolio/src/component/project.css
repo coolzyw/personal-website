@@ -1,5 +1,5 @@
 .section-project {
-    min-height: 200vh;
+    min-height: 300vh;
 }
 
 .section-subtitle {
@@ -27,6 +27,26 @@
 
 .each-section-project {
     min-width: 100%;
-    min-height: 20vh;
+    min-height: 18vh;
     margin-top: 4%;
+}
+
+.video {
+    width: 50%;
+    margin-left: 10%;
+    outline: none;
+}
+
+.demo-pic {
+    width: 80%;
+    float: left;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+
+.each-demo-pic {
+    width: 25%;
+    height: 25%;
+    margin-right: 2%;
 }
