@@ -1,0 +1,32 @@
+.section-project {
+    min-height: 200vh;
+}
+
+.section-subtitle {
+    font-size: medium;
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 0;
+    color: hotpink;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #282c34;
+    padding: 1%;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: hotpink;
+}
+
+.project-name {
+    color: white;
+    margin-left: 5%;
+    margin-top: 0;
+    float: left;
+}
+
+.each-section-project {
+    min-width: 100%;
+    min-height: 20vh;
+    margin-top: 4%;
+}
