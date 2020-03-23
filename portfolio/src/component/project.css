@@ -1,5 +1,6 @@
 .section-project {
-    min-height: 300vh;
+    min-height: 500vh;
+    max-width: 100vw;
 }
 
 .section-subtitle {
@@ -16,17 +17,19 @@
     border-radius: 5px;
     border-width: 2px;
     border-color: hotpink;
+    margin-right: 50%;
 }
 
 .project-name {
     color: white;
     margin-left: 5%;
     margin-top: 0;
+    width: 50%;
     float: left;
 }
 
 .each-section-project {
-    min-width: 100%;
+    min-width: 80%;
     min-height: 18vh;
     margin-top: 4%;
 }
@@ -49,4 +52,15 @@
     width: 25%;
     height: 25%;
     margin-right: 2%;
+}
+
+.code {
+    margin-left: 5%;
+    color: coral;
+    border-color: coral;
+    text-decoration: none;
+    display: inline-block;
+    border-style: solid;
+    padding: 0.5%;
+    border-radius: 5px;
 }

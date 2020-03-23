@@ -1,13 +1,16 @@
 import React, {Component} from "react";
 import './project.css';
 import video from '../GPU_driver.mov'
+import graphics1 from '../graphics1.mov'
+import graphics2 from '../graphics2.mov'
 
 export default class Project extends Component {
     render() {
         return(
             <div id="projects" className="section-project">
                 <div className="section-title"> &#128071; Here are some fun projects I did! </div>
-                <button className="section-subtitle"> System & Infrastructure </button>
+
+                <button className="section-subtitle" > System & Infrastructure </button>
                 <div className="each-section-project">
                     <h4 className="project-name"> A simple web client and web server on top of TCP </h4>
                     <ul className="text">
@@ -64,9 +67,46 @@ export default class Project extends Component {
                     </ul>
                 </div>
 
+                <br/>
+                <br/>
 
 
+                <button className="section-subtitle"> UI & Graphics </button>
+                <div className="each-section-project">
+                    <h4 className="project-name"> 3D world camera exploration
+                        <a className="code" target="_blank" href="https://github.com/coolzyw/3D-world-camera-exploration">  &#128073; code </a>
+                    </h4>
+                    <ul className="text">
+                        <li className="intro"> Create a large, animated 3D world that user can explore and view with a movable 3D camera. </li>
+                        <li className="intro"> Implemented user-controlled spinning speed, object moving and mouse dragging features. </li>
+                    </ul>
+                </div>
+                <video className="video" controls >
+                    <source src={graphics1} type="video/mp4"/>
+                </video>
+
+                <br/>
+                <br/>
+                <div className="each-section-project">
+                    <h4 className="project-name"> A Realistic Shading World
+                        <a className="code" target="_blank" href="https://github.com/coolzyw/Realistic-Shading-3D-World">  &#128073; code </a>
+                    </h4>
+                    <ul className="text">
+                        <li className="intro"> Created realistic interactive lighting, shading and materials in WebGL in a "virtual world".  </li>
+                        <li className="intro"> Implemented two independent user-adjustable light sources, each with different position. </li>
+                        <li className="intro"> Added user-control animation and camera navigation. </li>
+                    </ul>
+                </div>
+                <video className="video" controls >
+                    <source src={graphics2} type="video/mp4"/>
+                </video>
+
+
+                <button className="section-subtitle"> Web </button>
+
+                <button className="section-subtitle"> AI & ML  </button>
             </div>
         );
     }
+
 }
