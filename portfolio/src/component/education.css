@@ -1,5 +1,6 @@
 .section {
     min-height: 100vh;
+    width: 100vw;
 }
 
 .h1 {
@@ -21,11 +22,11 @@
 }
 
 .section-body {
-    margin-left: 9%;
+    margin-left: 8%;
 }
 
 .each-section {
-    min-width: 100vw;
+    min-width: 85vw;
     /*min-height: 16vh;*/
     margin-top: 4%;
 }
