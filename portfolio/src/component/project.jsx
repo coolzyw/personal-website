@@ -6,7 +6,7 @@ export default class Project extends Component {
     render() {
         return(
             <div id="projects" className="section-project">
-                <div className="section-title"> Here are some fun projects I did! </div>
+                <div className="section-title"> &#128071; Here are some fun projects I did! </div>
                 <button className="section-subtitle"> System & Infrastructure </button>
                 <div className="each-section-project">
                     <h4 className="project-name"> A simple web client and web server on top of TCP </h4>
@@ -53,6 +53,19 @@ export default class Project extends Component {
                 <video className="video" controls >
                     <source src={video} type="video/mp4"/>
                 </video>
+
+                <div className="each-section-project">
+                    <h4 className="project-name"> Scheduling and discrete event simulation </h4>
+                    <ul className="text">
+                        <li className="intro"> Implemented 5 types of scheduling mechanism: non-preemptive random, non-preemptive shortest job first,
+                            preemptive shortest remaining time first, preemptve round robin, preemptive lottery scheduling.
+                        </li>
+                        <li className="intro"> Evaluated the performance of each scheduler on different workloads. </li>
+                    </ul>
+                </div>
+
+
+
             </div>
         );
     }
