@@ -18,6 +18,7 @@
     border-width: 2px;
     border-color: hotpink;
     margin-right: 50%;
+    outline: none;
 }
 
 .project-name {
@@ -54,6 +55,11 @@
     margin-right: 2%;
 }
 
+.each-demo-pic-ui {
+    width: 40%;
+    margin: 2%;
+}
+
 .code {
     margin-left: 5%;
     color: coral;
@@ -63,4 +69,8 @@
     border-style: solid;
     padding: 0.5%;
     border-radius: 5px;
+}
+
+.code:hover {
+    background-color: grey;
 }

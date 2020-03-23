@@ -102,6 +102,25 @@ export default class Project extends Component {
                 </video>
 
 
+                <br/>
+                <br/>
+                <div className="each-section-project">
+                    <h4 className="project-name"> Time management UI interface
+                        <a className="code" target="_blank" href="https://github.com/EECS330-HCI-2019-YJZZ/2019-HCI-Project">  &#128073; code </a>
+                    </h4>
+                    <ul className="text">
+                        <li className="intro"> Implemented a IOS interface to help users to form a better habit and stay punctual for their events. </li>
+                        <li className="intro"> Supported intelligence planning and connected user to social media by embedding google map and twitter. </li>
+                    </ul>
+
+                    <div className="demo-pic">
+                        <img className="each-demo-pic-ui" src={ require('../UI_1.png') } />
+                        <img className="each-demo-pic-ui" src={ require('../UI_2.png') } />
+                    </div>
+
+                </div>
+
+
                 <button className="section-subtitle"> Web </button>
 
                 <button className="section-subtitle"> AI & ML  </button>
